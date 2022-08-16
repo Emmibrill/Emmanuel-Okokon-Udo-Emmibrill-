@@ -80,6 +80,16 @@ a .fa-brands{
 /*querry for footer section*/
 
 @media only screen and (max-width: 719px){
+.location{
+	display: flex;
+	text-align: center;
+}
+
+p{
+	display: block;
+	text-align: center;
+
+}
 
 footer body{
 	 display: table-column-group;
@@ -87,12 +97,5 @@ footer body{
 	text-align: center;
 	justify-content: space-between;
 }
-p{
-	display: block;
-	text-align: center;
 
-}
-.location{
-	display: flex;
-	text-align: center;
-}
+
