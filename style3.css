@@ -79,7 +79,8 @@ a .fa-brands{
 
 /*querry for footer section*/
 
-@media only screen and (max-width: 719px){
+@media screen(max-width: 719px){
+
 .location{
 	display: flex;
 	text-align: center;
@@ -96,6 +97,7 @@ footer body{
 	flex-direction:block;
 	text-align: center;
 	justify-content: space-between;
+}
 }
 
 
